@@ -16,6 +16,7 @@ export default defineNuxtConfig({
                rel: "preload",
                href: "/fonts/Aachen.ttf",
                as: "font",
+               type: "font/ttf",
                crossorigin: "anonymous",
             },
             {
@@ -39,10 +40,6 @@ export default defineNuxtConfig({
          scoresExcelUrl: process.env.SCORES_EXCEL_URL, // TODO: Add this to the .env file
          teamsExcelUrl: process.env.TEAMS_EXCEL_URL, // TODO: Add this to the .env file
       },
-   },
-
-   primevue: {
-      importPT: { from: "~/presets/lara" },
    },
 
    css: [

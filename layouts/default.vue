@@ -1,9 +1,6 @@
 <template>
-   <div class="flex min-h-screen flex-col">
-      <header>
-         <!-- <MainHeader /> -->
-      </header>
-      <main class="flex-1 bg-gray-100">
+   <div class="flex min-h-screen flex-col bg-gray-100">
+      <main class="flex-1">
          <slot />
       </main>
       <footer>
