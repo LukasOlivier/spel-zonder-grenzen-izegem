@@ -1,6 +1,6 @@
 <template>
    <Hero />
-   <div class="mx-auto w-10/12">
+   <div class="mx-auto w-11/12 md:w-9/12">
       <HomeInfo />
       <HomeFaq />
    </div>

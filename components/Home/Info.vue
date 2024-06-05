@@ -1,9 +1,6 @@
 <template>
    <div>
-      <section
-         id="info"
-         class="my-40 grid grid-cols-1 gap-8 p-8 md:grid-cols-2"
-      >
+      <section id="info" class="my-40 grid grid-cols-1 gap-8 md:grid-cols-2">
          <div>
             <h2 class="text-5xl">Wat is er te beleven</h2>
             <p class="mt-4">
@@ -43,9 +40,9 @@
                   Probeer dan te carpoolen.
                </p>
 
-               <h3 class="mt-4 text-xl font-bold">
+               <p class="mt-4 text-xl font-bold">
                   Voor een vlot een veilig verloop:
-               </h3>
+               </p>
                <ul class="ml-8 mt-2 flex list-disc flex-col gap-2">
                   <li>Volg de aanwijzingen van onze seingevers.</li>
                   <li>

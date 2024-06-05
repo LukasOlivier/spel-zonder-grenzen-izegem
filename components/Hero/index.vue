@@ -9,9 +9,9 @@
       </div>
       <TopBar class="absolute top-0 z-10" />
       <div class="absolute top-1/4 z-10 w-full p-4 text-center uppercase">
-         <h1 class="mb-4 text-6xl">Spel Zonder Grenzen</h1>
-         <h2 class="text-4xl">ZATERDAG 13 JULI 2024</h2>
-         <h2 class="text-4xl">DOMEIN WALLEMOTE - IZEGEM</h2>
+         <h1 class="mb-4 text-5xl md:text-6xl">Spel Zonder Grenzen</h1>
+         <h2 class="text-3xl md:text-4xl">ZATERDAG 13 JULI 2024</h2>
+         <h2 class="text-3xl md:text-4xl">DOMEIN WALLEMOTE - IZEGEM</h2>
 
          <NuxtLink
             to="/inschrijven"

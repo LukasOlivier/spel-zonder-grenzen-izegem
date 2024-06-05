@@ -4,7 +4,7 @@
 
 @font-face {
    font-family: "Aachen";
-   src: url("/fonts/Aachen.ttf") format("truetype");
+   src: url("/fonts/aachenn.ttf") format("truetype");
 }
 
 html {
@@ -12,14 +12,13 @@ html {
 }
 
 h1,
-h2 {
+h2,
+h3 {
    font-family: "Aachen", sans-serif;
-   font-weight: bold;
 }
 
 .font-aachen {
    font-family: "Aachen", sans-serif;
-   font-weight: bold;
 }
 
 p {

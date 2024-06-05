@@ -12,13 +12,7 @@ export default defineNuxtConfig({
                as: "style",
                onload: "this.onload=null;this.rel='stylesheet'",
             },
-            {
-               rel: "preload",
-               href: "/fonts/Aachen.ttf",
-               as: "font",
-               type: "font/ttf",
-               crossorigin: "anonymous",
-            },
+
             {
                rel: "stylesheet",
                href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css",
@@ -33,7 +27,7 @@ export default defineNuxtConfig({
       "@nuxtjs/seo",
       "@vueuse/motion/nuxt",
       "nuxt-primevue",
-      "@nuxt/image"
+      "@nuxt/image",
    ],
 
    runtimeConfig: {
