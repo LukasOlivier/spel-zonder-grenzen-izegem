@@ -24,6 +24,8 @@
             src="/images/homeInfo.webp"
             alt="sfeerbeeld"
             class="mt-20 h-96 w-full rounded object-cover shadow-lg md:col-span-2"
+            :placeholder="[50, 25, 75, 5]"
+            loading="lazy"
          />
          <span
             class="seperator my-20 border-b-2 border-gray-200 md:col-span-2"

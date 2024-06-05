@@ -28,6 +28,7 @@ export default defineNuxtConfig({
       "@vueuse/motion/nuxt",
       "nuxt-primevue",
       "@nuxt/image",
+      "nuxt-booster",
    ],
 
    runtimeConfig: {
@@ -35,6 +36,15 @@ export default defineNuxtConfig({
          scoresExcelUrl: process.env.SCORES_EXCEL_URL, // TODO: Add this to the .env file
          teamsExcelUrl: process.env.TEAMS_EXCEL_URL, // TODO: Add this to the .env file
       },
+   },
+
+   site: {
+      url: "https://szg.be",
+   },
+
+   image: {
+      format: ["webp"],
+      quality: 80,
    },
 
    css: [

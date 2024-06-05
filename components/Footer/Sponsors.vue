@@ -13,6 +13,8 @@
             class="h-20 w-80 object-contain"
             :src="sponsor.image"
             alt="sponsor"
+            :placeholder="[50, 25, 75, 5]"
+            loading="lazy"
          />
       </a>
    </div>

@@ -1,7 +1,9 @@
 <template>
    <div class="text-white">
       <div class="relative z-0 h-screen w-full">
-         <img
+         <NuxtImg
+            :placeholder="[50, 25, 75, 5]"
+            loading="lazy"
             src="/images/hero2.webp"
             alt="Hero"
             class="absolute inset-0 h-full w-full object-cover"

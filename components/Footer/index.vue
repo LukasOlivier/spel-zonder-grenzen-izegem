@@ -4,6 +4,8 @@
       <div class="flex justify-between p-12">
          <NuxtImg
             src="/images/logo.webp"
+            :placeholder="[50, 25, 75, 5]"
+            loading="lazy"
             alt="logo"
             class="hidden h-20 w-40 object-contain md:block"
          />
@@ -34,7 +36,7 @@
                <NuxtLink to="/inschrijven">Inschrijven</NuxtLink>
             </li>
             <li>
-               <NuxtLink to="/contact">Contact</NuxtLink>
+               <NuxtLink to="/#footer">Contact</NuxtLink>
             </li>
          </ul>
       </nav>
