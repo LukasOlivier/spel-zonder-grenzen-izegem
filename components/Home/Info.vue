@@ -32,7 +32,7 @@
             class="seperator my-20 border-b-2 border-gray-200 md:col-span-2"
          ></span>
          <div>
-            <h2 class="text-5xl">Parkeren en verkeerssituatie</h2>
+            <h2 class="break-words text-5xl">Parkeren en verkeer</h2>
             <div>
                <p class="mt-4">
                   SZG lokt massaal veel deelnemers, toeschouwers en
@@ -43,8 +43,10 @@
                   Probeer dan te carpoolen.
                </p>
 
-               <p class="mt-4 font-bold">Voor een vlot een veilig verloop:</p>
-               <ul class="ml-8 flex list-disc flex-col gap-2">
+               <h3 class="mt-4 text-xl font-bold">
+                  Voor een vlot een veilig verloop:
+               </h3>
+               <ul class="ml-8 mt-2 flex list-disc flex-col gap-2">
                   <li>Volg de aanwijzingen van onze seingevers.</li>
                   <li>
                      Let goed op de verkeersborden: er is éénrichtingsverkeer en
