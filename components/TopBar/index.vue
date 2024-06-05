@@ -1,7 +1,7 @@
 <template>
    <div class="flex w-full items-center justify-between p-4">
-      <NuxtLink class="inline-block h-12" to="/">
-         <NuxtImg src="/images/logo.webp" alt="Logo" class="h-12" />
+      <NuxtLink class="inline-block h-14" to="/">
+         <NuxtImg src="/images/logo.webp" alt="Logo" class="h-full" />
       </NuxtLink>
       <TopBarMenuButton @click="showSidebar" class="hover:cursor-pointer" />
       <TopBarMenu

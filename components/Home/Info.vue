@@ -29,7 +29,7 @@
             class="mt-20 h-96 w-full rounded object-cover shadow-lg md:col-span-2"
          />
          <span
-            class="seperator col-span-2 my-20 border-b-2 border-gray-200"
+            class="seperator my-20 border-b-2 border-gray-200 md:col-span-2"
          ></span>
          <div>
             <h2 class="text-5xl">Parkeren en verkeerssituatie</h2>

@@ -1,7 +1,7 @@
 <template>
-   <section class="my-40 flex flex-col">
+   <section id="faq" class="my-40 flex flex-col">
       <h2
-         class="inline-block self-center border-b-8 border-blue-600 pb-2 text-center text-5xl"
+         class="inline-block border-b-8 border-blue-600 pb-2 text-5xl md:self-center"
       >
          Veelgestelde vragen
       </h2>
