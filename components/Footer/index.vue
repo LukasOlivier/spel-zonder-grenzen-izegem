@@ -24,9 +24,7 @@
             </a>
          </div>
       </div>
-      <span>
-         <hr class="border-t-2 border-gray-200" />
-      </span>
+      <hr class="border-t-2 border-gray-200" />
       <nav>
          <ul class="flex gap-4 px-12 py-5">
             <li>
