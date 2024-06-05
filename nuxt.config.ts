@@ -33,6 +33,7 @@ export default defineNuxtConfig({
       "@nuxtjs/seo",
       "@vueuse/motion/nuxt",
       "nuxt-primevue",
+      "@nuxt/image"
    ],
 
    runtimeConfig: {
