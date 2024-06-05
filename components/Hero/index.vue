@@ -2,7 +2,7 @@
    <div class="text-white">
       <div class="relative z-0 h-screen w-full">
          <img
-            src="/images/hero.webp"
+            src="/images/hero2.webp"
             alt="Hero"
             class="absolute inset-0 h-full w-full object-cover"
          />
