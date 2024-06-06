@@ -13,6 +13,7 @@ export function useSheet() {
             });
             return score;
          });
+         console.log("Sheet data:", sheetData);
          return sheetData;
       } catch (error) {
          console.error("Error fetching sheet:", error);

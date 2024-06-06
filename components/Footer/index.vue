@@ -1,5 +1,5 @@
 <template>
-   <section>
+   <section id="contact">
       <FooterSponsors></FooterSponsors>
       <div class="flex justify-between p-12">
          <NuxtImg
@@ -36,7 +36,7 @@
                <NuxtLink to="/inschrijven">Inschrijven</NuxtLink>
             </li>
             <li>
-               <NuxtLink to="/#footer">Contact</NuxtLink>
+               <NuxtLink to="/#contact">Contact</NuxtLink>
             </li>
          </ul>
       </nav>

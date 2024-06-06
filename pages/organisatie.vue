@@ -5,7 +5,7 @@
          description="De organisatie van SZG gebeurt volledig door vrijwillige medewerkers"
       ></Hero>
       <div class="mx-auto my-10 w-11/12 md:w-8/12 lg:w-6/12">
-         <h2 class="text-3xl md:text-4xl">Ontdek onze knotsgekke spelen</h2>
+         <h2 class="text-3xl md:text-4xl">Comité Spel Zonder Grenzen</h2>
          <div class="mt-4 flex flex-col gap-4">
             <p>
                Naast de goede doelen die het comité SZG steunt, organiseren we
@@ -20,7 +20,7 @@
             </p>
             <p>
                Je versterkt graag ons team?
-               <a class="underline" href="#footer">Contacteer ons</a>.
+               <a class="underline" href="#contact">Contacteer ons</a>.
             </p>
          </div>
 
