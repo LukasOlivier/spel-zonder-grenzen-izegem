@@ -21,9 +21,8 @@ const { getSheet } = useSheet();
 
 async function getTeams() {
    try {
-      const sheetUrl =
-         "https://docs.google.com/spreadsheets/d/e/2PACX-1vQif1bgr9zNz6NSgLRakDX4cF0g16i7YFJbGmruVPxC6cO3kuSJ3oYHiLz68Tettu2utopMiQZZzgSG/pub?gid=0&single=true&output=csv";
-      teams.value = await getSheet(sheetUrl);
+      const config = useRuntimeConfig();
+      teams.value = await getSheet(config.public.teamsExcelUrl);
       console.log("Teams:", teams.value);
    } catch (error) {
       console.error("Error fetching scores:", error);

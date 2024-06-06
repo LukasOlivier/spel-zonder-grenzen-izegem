@@ -1,6 +1,6 @@
 <template>
    <div>
-      <section id="info" class="my-40 grid grid-cols-1 gap-8 md:grid-cols-2">
+      <section id="info" class="grid grid-cols-1 gap-8 py-40 md:grid-cols-2">
          <div>
             <h2 class="text-5xl">Wat is er te beleven</h2>
             <p class="mt-4">

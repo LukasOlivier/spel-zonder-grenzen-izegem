@@ -2,7 +2,7 @@
    <div>
       <Hero
          pageTitle="Inscrijven"
-         description="Lees zeker Info voor ploegen voor alle informatie"
+         description="Lees zeker de info na vooraleer je inschrijft"
       ></Hero>
       <div class="mx-auto my-10 w-11/12 md:w-8/12 lg:w-6/12">
          <h2 class="text-3xl md:text-4xl">Info</h2>

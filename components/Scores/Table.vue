@@ -1,13 +1,6 @@
 <template>
    <div>
-      <DataTable
-         sortField="Totaal"
-         :sortOrder="-1"
-         :value="scores"
-         stripedRows
-         paginator
-         :rows="20"
-      >
+      <DataTable sortField="Totaal" :sortOrder="-1" :value="scores" stripedRows>
          <Column field="Naam" sortable header="Ploegnaam"></Column>
          <Column field="Totaal" sortable header="Totaal"></Column>
          <Column field="A" sortable header="A"></Column>
@@ -31,9 +24,8 @@ const { getSheet } = useSheet();
 
 async function getScores() {
    try {
-      const scoresUrl =
-         "https://docs.google.com/spreadsheets/d/e/2PACX-1vTCNOinNTwkatQaJ4Wdl8X0W2Yrqjgx-RwHpAxJMdTTG69dt7tMmxyTiaXANHHC6hjxfFBEs3t2GgNV/pub?gid=0&single=true&output=csv";
-      const sheet = await getSheet(scoresUrl);
+      const config = useRuntimeConfig();
+      const sheet = await getSheet(config.public.scoresExcelUrl);
       scores.value = removeEmptyRows(sheet);
    } catch (error) {
       console.error("Error fetching scores:", error);

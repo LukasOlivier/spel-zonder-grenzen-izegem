@@ -19,7 +19,10 @@
                een voorjaarsactiviteit (bv. sneukelfietstocht, fotozoektocht,
                …).
             </p>
-            <p>Voorstel voor een goed doel? Contacteer ons.</p>
+            <p>
+               Voorstel voor een goed doel?
+               <a class="underline" href="#contact">Contacteer ons</a>.
+            </p>
          </div>
 
          <hr class="my-16 border-t-2 border-gray-200" />
