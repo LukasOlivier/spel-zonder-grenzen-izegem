@@ -36,6 +36,11 @@
             <li>
                <NuxtLink to="/scores" active-class="bold">Scores</NuxtLink>
             </li>
+            <li>
+               <NuxtLink to="/hall-of-fame" active-class="bold"
+                  >Hall of fame</NuxtLink
+               >
+            </li>
          </ul>
       </nav>
    </Sidebar>
