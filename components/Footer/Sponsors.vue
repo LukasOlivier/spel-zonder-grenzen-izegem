@@ -39,5 +39,10 @@ const sponsors = ref([
       image: "/images/sponsors/argenta.webp",
       link: "https://www.argenta.be/nl",
    },
+   {
+      id: 4,
+      image: "/images/sponsors/mediawax.webp",
+      link: "https://www.mediawax.be/nl",
+   },
 ]);
 </script>
