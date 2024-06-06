@@ -15,15 +15,15 @@
          <h2 class="text-3xl md:text-4xl">ZATERDAG 13 JULI 2024</h2>
          <h2 class="text-3xl md:text-4xl">DOMEIN WALLEMOTE - IZEGEM</h2>
 
-         <NuxtLink
-            to="/inschrijven"
+         <a
+            href="/inschrijven"
             class="font-aachen mt-20 inline-block transform rounded-lg bg-orange-400 px-8 py-4 text-3xl uppercase transition duration-300 hover:scale-105 hover:cursor-pointer hover:bg-orange-500"
          >
             Inschrijven
-         </NuxtLink>
-         <NuxtLink to="#info" class="mt-12 block text-4xl hover:cursor-pointer">
+         </a>
+         <a href="/#info" class="mt-12 block text-4xl hover:cursor-pointer">
             <i class="fa fa-chevron-down bounce"></i>
-         </NuxtLink>
+         </a>
       </div>
    </div>
 </template>

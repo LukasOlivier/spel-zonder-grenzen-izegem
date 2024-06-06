@@ -1,5 +1,5 @@
 <template>
-   <Sidebar v-model:visible="localVisible" header="Spel Zonder Grenzen">
+   <Sidebar header="Spel Zonder Grenzen">
       <nav>
          <ul class="flex flex-col gap-4 p-4">
             <li>

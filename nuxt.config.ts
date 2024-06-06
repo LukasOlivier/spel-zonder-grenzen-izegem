@@ -35,6 +35,7 @@ export default defineNuxtConfig({
       public: {
          scoresExcelUrl: process.env.SCORES_EXCEL_URL, // TODO: Add this to the .env file
          teamsExcelUrl: process.env.TEAMS_EXCEL_URL, // TODO: Add this to the .env file
+         googleFormsUrl: process.env.GOOGLE_FORMS_URL, // TODO: Add this to the .env file
       },
    },
 

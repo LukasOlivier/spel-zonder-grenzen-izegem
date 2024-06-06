@@ -45,8 +45,8 @@
                target="_blank"
                aria-label="Inschrijven voor SZG 2025"
                class="font-aachen mt-10 inline-block rounded-lg border-2 border-white px-6 py-4 text-center text-xl uppercase md:text-3xl"
-               href="https://docs.google.com/forms/d/e/1FAIpQLSehMhxXd3-maW1QixGXEjJW9bVYvBpcJ9hQoWibLand9PVZkg/viewform"
-               >Inschrijven voor SZG 2025</a
+               :href="config.public.googleFormsUrl"
+               >Inschrijven voor SZG {{ thisYear }}</a
             >
          </div>
       </div>
@@ -78,6 +78,10 @@
 
 <script setup>
 import { ref } from "vue";
+
+const config = useRuntimeConfig();
+
+const thisYear = ref(new Date().getFullYear());
 
 const statusExplanation = ref([
    {
