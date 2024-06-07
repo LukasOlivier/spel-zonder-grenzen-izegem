@@ -3,12 +3,12 @@
       <NuxtLink class="inline-block h-14" to="/">
          <NuxtImg src="/images/logo.webp" alt="Logo" class="h-full" />
       </NuxtLink>
-      <TopBarMenuButton @click="showSidebar" class="hover:cursor-pointer" />
+      <TopBarMenuButton class="hover:cursor-pointer" @click="showSidebar" />
       <TopBarMenu
          :visible="isVisible"
-         @update:visible="updateVisibility"
          class="z-20"
-      ></TopBarMenu>
+         @update:visible="updateVisibility"
+      />
    </div>
 </template>
 

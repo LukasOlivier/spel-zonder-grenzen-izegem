@@ -29,6 +29,7 @@ export default defineNuxtConfig({
       "nuxt-primevue",
       "@nuxt/image",
       "nuxt-booster",
+      "@unlighthouse/nuxt",
    ],
 
    runtimeConfig: {

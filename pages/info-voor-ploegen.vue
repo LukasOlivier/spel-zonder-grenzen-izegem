@@ -1,9 +1,9 @@
 <template>
    <div class="pb-40">
       <Hero
-         pageTitle="INFO VOOR PLOEGEN"
+         page-title="INFO VOOR PLOEGEN"
          description="INSCHRIJVEN VANAF 15 FEBRUARI 2024"
-      ></Hero>
+      />
       <div class="mx-auto my-20 w-11/12 md:w-8/12">
          <h2 class="text-4xl">Wie kan deelnemen?</h2>
          <div class="mt-4 flex flex-col gap-2">
@@ -25,11 +25,11 @@
                </li>
             </ul>
          </div>
-         <hr class="my-16 border-t-2 border-gray-200" />
-         <TeamInfoPrices></TeamInfoPrices>
-         <hr class="my-16 border-t-2 border-gray-200" />
-         <TeamInfoPrizes></TeamInfoPrizes>
-         <hr class="my-16 border-t-2 border-gray-200" />
+         <hr class="my-16 border-t-2 border-gray-200" >
+         <TeamInfoPrices />
+         <hr class="my-16 border-t-2 border-gray-200" >
+         <TeamInfoPrizes />
+         <hr class="my-16 border-t-2 border-gray-200" >
          <h2 class="text-4xl">Algemene Vergadering</h2>
          <p class="mt-4">
             De algemene vergadering vindt plaats op donderdag 11 juli 2024 om
@@ -43,8 +43,8 @@
             deze vergadering de inbegrepen drank- en eetkaarten. Geen
             vergadering = geen kaarten!
          </p>
-         <hr class="my-16 border-t-2 border-gray-200" />
-         <TeamInfoInsurance></TeamInfoInsurance>
+         <hr class="my-16 border-t-2 border-gray-200" >
+         <TeamInfoInsurance />
       </div>
    </div>
 </template>

@@ -1,9 +1,9 @@
 <template>
    <div>
-      <Hero
-         pageTitle="Organisatie"
+      <HeroSection
+         page-title="Organisatie"
          description="De organisatie van SZG gebeurt volledig door vrijwillige medewerkers"
-      ></Hero>
+      />
       <div class="mx-auto my-10 w-11/12 md:w-8/12 lg:w-6/12">
          <h2 class="text-3xl md:text-4xl">Comité Spel Zonder Grenzen</h2>
          <div class="mt-4 flex flex-col gap-4">
@@ -24,7 +24,7 @@
             </p>
          </div>
 
-         <hr class="my-12 border-t-2 border-gray-200" />
+         <hr class="my-12 border-t-2 border-gray-200" >
 
          <Timeline
             :value="events"
@@ -36,7 +36,7 @@
                   class="w-2rem h-2rem align-items-center justify-content-center border-circle z-1 shadow-1 flex text-white"
                   :style="{ backgroundColor: slotProps.item.color }"
                >
-                  <i class="fas fa-circle text-blue-500"></i>
+                  <i class="fas fa-circle text-blue-500" />
                </span>
             </template>
             <template #content="slotProps">

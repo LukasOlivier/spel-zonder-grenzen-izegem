@@ -1,9 +1,9 @@
 <template>
    <div>
-      <Hero
-         pageTitle="Inscrijven"
+      <HeroSection
+         page-title="Inscrijven"
          description="Lees zeker de info na vooraleer je inschrijft"
-      ></Hero>
+      />
       <div class="mx-auto my-10 w-11/12 md:w-8/12 lg:w-6/12">
          <h2 class="text-3xl md:text-4xl">Info</h2>
          <div class="mt-4 flex flex-col gap-4">
@@ -32,7 +32,7 @@
             </p>
          </div>
 
-         <hr class="my-12 border-t-2 border-gray-200" />
+         <hr class="my-12 border-t-2 border-gray-200" >
       </div>
       <div class="hero text-white">
          <div
@@ -52,9 +52,9 @@
       </div>
       <div class="mx-auto my-10 w-11/12 pb-40 md:w-8/12 lg:w-6/12">
          <h3 class="mb-10 text-3xl md:text-4xl">Ingeschreven ploegen</h3>
-         <TeamsTable></TeamsTable>
+         <TeamsTable />
 
-         <hr class="my-12 border-t-2 border-gray-200" />
+         <hr class="my-12 border-t-2 border-gray-200" >
 
          <h3 class="mb-10 text-3xl md:text-4xl">
             Verduidelijking kolom betaling
@@ -62,6 +62,7 @@
          <ul class="flex flex-col gap-8">
             <li
                v-for="status in statusExplanation"
+               :key="status.status"
                class="border-b-2 border-gray-200 pb-2"
             >
                <span
@@ -69,7 +70,7 @@
                   :class="status.color"
                   >{{ status.status }}</span
                >
-               <p v-html="status.description" class="mt-2 leading-7"></p>
+               <p class="mt-2 leading-7" v-html="status.description" />
             </li>
          </ul>
       </div>

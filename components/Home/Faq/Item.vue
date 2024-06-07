@@ -8,10 +8,14 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-
 const props = defineProps({
-   question: String,
-   answer: String,
+   question: {
+      type: String,
+      required: true,
+   },
+   answer: {
+      type: String,
+      required: true,
+   },
 });
 </script>

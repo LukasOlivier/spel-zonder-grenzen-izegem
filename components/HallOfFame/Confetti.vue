@@ -1,8 +1,8 @@
 <template>
    <div>
       <button
-         @click="triggerConfetti"
          class="fixed bottom-4 right-4 rounded bg-blue-500 p-2 text-white"
+         @click="triggerConfetti"
       >
          Celebrate
       </button>

@@ -6,13 +6,13 @@
          Veelgestelde vragen
       </h2>
       <div class="mt-20 flex flex-col">
-         <div v-for="faq in faqs">
+         <div v-for="faq in faqs" :key="faq.id">
             <HomeFaqItem
                :key="faq.id"
                :question="faq.question"
                :answer="faq.answer"
             />
-            <span class="my-10 block border-b-2 border-gray-200"></span>
+            <span class="my-10 block border-b-2 border-gray-200" />
          </div>
       </div>
    </section>

@@ -1,13 +1,13 @@
 <template>
    <div>
-      <DataTable :value="teams" stripedRows>
-         <Column field="Ploegnaam?" header="Ploegnaam"></Column>
-         <Column field="Jeugdploeg?" header="Jeugdploeg"></Column>
-         <Column field="Gemengde ploeg?" header="Gemengde ploeg"></Column>
+      <DataTable :value="teams" striped-rows>
+         <Column field="Ploegnaam?" header="Ploegnaam" />
+         <Column field="Jeugdploeg?" header="Jeugdploeg" />
+         <Column field="Gemengde ploeg?" header="Gemengde ploeg" />
          <Column
             field="BETALING OK tot op xxx"
             header="BETALING OK tot op xxx"
-         ></Column>
+         />
       </DataTable>
    </div>
 </template>

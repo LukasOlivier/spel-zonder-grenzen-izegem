@@ -1,16 +1,21 @@
 <template>
    <div>
-      <DataTable sortField="Totaal" :sortOrder="-1" :value="scores" stripedRows>
-         <Column field="Naam" sortable header="Ploegnaam"></Column>
-         <Column field="Totaal" sortable header="Totaal"></Column>
-         <Column field="A" sortable header="A"></Column>
-         <Column field="B" sortable header="B"></Column>
-         <Column field="C" sortable header="C"></Column>
-         <Column field="D" sortable header="D"></Column>
-         <Column field="E" sortable header="E"></Column>
-         <Column field="F" sortable header="F"></Column>
-         <Column field="G" sortable header="G"></Column>
-         <Column field="Finale" sortable header="Finale"></Column>
+      <DataTable
+         sort-field="Totaal"
+         :sort-order="-1"
+         :value="scores"
+         striped-rows
+      >
+         <Column field="Naam" sortable header="Ploegnaam" />
+         <Column field="Totaal" sortable header="Totaal" />
+         <Column field="A" sortable header="A" />
+         <Column field="B" sortable header="B" />
+         <Column field="C" sortable header="C" />
+         <Column field="D" sortable header="D" />
+         <Column field="E" sortable header="E" />
+         <Column field="F" sortable header="F" />
+         <Column field="G" sortable header="G" />
+         <Column field="Finale" sortable header="Finale" />
       </DataTable>
    </div>
 </template>

@@ -1,18 +1,18 @@
 <template>
    <div>
       <h2 class="mb-4 text-4xl">Wat is de kostprijs?</h2>
-      <DataTable stripedRows :value="prices">
-         <Column field="Ploeg" header="Ploeg"></Column>
-         <Column field="Inschrijvingsgeld" header="Inschrijvingsgeld"></Column>
+      <DataTable striped-rows :value="prices">
+         <Column field="Ploeg" header="Ploeg" />
+         <Column field="Inschrijvingsgeld" header="Inschrijvingsgeld" />
          <Column
             field="Consumatiekaarten"
             header="Ontvangen consumatiekaarten"
-         ></Column>
+         />
       </DataTable>
       <span class="mt-4 inline-block text-sm text-gray-500">
          * inclusief verzekering
       </span>
-      <hr class="my-16 border-t-2 border-gray-200" />
+      <hr class="my-16 border-t-2 border-gray-200" >
       <h2 class="mb-4 text-4xl">Definitieve Inschrijving</h2>
       <ul class="flex list-inside list-disc flex-col gap-4">
          <li>

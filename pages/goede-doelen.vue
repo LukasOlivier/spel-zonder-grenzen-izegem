@@ -1,9 +1,9 @@
 <template>
    <div>
       <Hero
-         pageTitle="Goede doelen"
+         page-title="Goede doelen"
          description="Met de opbrengst van Spel Zonder Grenzen steunen wij jaarlijks verschillende goede doelen."
-      ></Hero>
+      />
       <div class="mx-auto my-20 w-11/12 md:w-8/12">
          <h2 class="text-4xl">Goede doelen</h2>
          <div class="mt-4 flex flex-col gap-2">
@@ -172,3 +172,10 @@ const sortedYears = computed(() =>
    Object.keys(goodCauses.value).sort((a, b) => b - a),
 );
 </script>
+
+<style scoped>
+li.p-tabview-header.p-highlight {
+   background-color: #f58634;
+   color: red;
+}
+</style>

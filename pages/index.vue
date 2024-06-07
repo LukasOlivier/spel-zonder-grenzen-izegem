@@ -1,8 +1,10 @@
 <template>
-   <HomeHero />
-   <div class="mx-auto w-11/12 md:w-9/12">
-      <HomeInfo />
-      <HomeFaq />
+   <div>
+      <HomeHero />
+      <div class="mx-auto w-11/12 md:w-9/12">
+         <HomeInfo />
+         <HomeFaq />
+      </div>
    </div>
 </template>
 

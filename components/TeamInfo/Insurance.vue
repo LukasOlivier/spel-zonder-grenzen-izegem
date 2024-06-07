@@ -35,11 +35,11 @@
                      <th class="border-b px-6 py-4 text-start">
                         Verzekerde waarborgen en kapitalen
                      </th>
-                     <th class="border-b px-6 py-4 text-start"></th>
+                     <th class="border-b px-6 py-4 text-start" />
                      <th class="border-b px-6 py-4 text-start">
                         Sublimieten binnen het verzekerd kapitaal
                      </th>
-                     <th class="border-b px-6 py-4 text-start"></th>
+                     <th class="border-b px-6 py-4 text-start" />
                   </tr>
                </thead>
                <tbody class="divide-y divide-gray-200 bg-white">

@@ -1,19 +1,28 @@
 <template>
    <div class="rounded-lg bg-white p-8 shadow-lg">
-      <h3 class="text-2xl"><i :class="iconClass"></i> {{ title }}</h3>
+      <h3 class="text-2xl"><i :class="iconClass" /> {{ title }}</h3>
       <ol class="mt-4 flex flex-col gap-4">
-         <p v-for="(team, index) in teams" :key="index">
-            <i :class="medalClasses[index]"></i> {{ team }}
-         </p>
+         <li v-for="(team, index) in teams" :key="index">
+            <i :class="medalClasses[index]" /> {{ team }}
+         </li>
       </ol>
    </div>
 </template>
 
 <script setup>
-const props = defineProps({
-   title: String,
-   iconClass: String,
-   teams: Array,
+defineProps({
+   title: {
+      type: String,
+      required: true,
+   },
+   iconClass: {
+      type: String,
+      required: true,
+   },
+   teams: {
+      type: Array,
+      required: true,
+   },
 });
 
 const medalClasses = [

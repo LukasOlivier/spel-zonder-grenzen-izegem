@@ -10,3 +10,4 @@ yarn.lock
 *.log
 .env
 .env.production
+.unlighthouse

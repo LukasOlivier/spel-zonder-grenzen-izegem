@@ -22,27 +22,29 @@
          </div>
          <span
             class="seperator my-10 border-b-2 border-gray-200 md:col-span-2"
-         ></span>
+         />
          <div class="timeTable flex flex-col items-center p-12 md:col-span-2">
             <h3 class="text-5xl">Tijdschema</h3>
-            <ol class="mt-20 flex w-3/4 justify-between text-3xl">
+            <ol
+               class="mt-20 flex w-3/4 flex-col justify-between gap-20 text-center text-3xl md:flex-row"
+            >
                <li class="flex flex-col items-center justify-center gap-2">
-                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-clock" />
                   <p class="font-bold text-black">14u30: Start spelen</p>
                </li>
                <li class="flex flex-col items-center justify-center gap-2">
-                  <i class="fas fa-stopwatch"></i>
+                  <i class="fas fa-stopwatch" />
                   <p class="font-bold text-black">17u30: Einde spelen</p>
                </li>
                <li class="flex flex-col items-center justify-center gap-2">
-                  <i class="fas fa-trophy"></i>
+                  <i class="fas fa-trophy" />
                   <p class="font-bold text-black">18u00: Prijsuitreiking</p>
                </li>
             </ol>
          </div>
          <span
             class="seperator my-10 border-b-2 border-gray-200 md:col-span-2"
-         ></span>
+         />
          <div>
             <h2 class="break-words text-5xl">Parkeren en verkeer</h2>
             <div>
@@ -71,13 +73,14 @@
             </div>
          </div>
          <iframe
+            title="Google Maps SZG"
             class="h-96 w-full rounded object-cover shadow-lg"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.9002545753565!2d3.187000776850634!3d50.907061704381896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3371791c6bbcf%3A0x3d17b2119912e551!2sDomein%20Wallemote-Wolvenhof!5e0!3m2!1snl!2sbe!4v1717579507898!5m2!1snl!2sbe"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-         ></iframe>
+         />
       </section>
    </div>
 </template>

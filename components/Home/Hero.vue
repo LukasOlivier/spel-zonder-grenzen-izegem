@@ -17,12 +17,16 @@
 
          <a
             href="/inschrijven"
-            class="font-aachen mt-20 inline-block transform rounded-lg bg-orange-400 px-8 py-4 text-3xl uppercase transition duration-300 hover:scale-105 hover:cursor-pointer hover:bg-orange-500"
+            class="font-aachen mt-20 inline-block transform rounded-lg bg-orange-500 px-8 py-4 text-3xl uppercase transition duration-300 hover:scale-105 hover:cursor-pointer hover:bg-orange-500"
          >
             Inschrijven
          </a>
-         <a href="/#info" class="mt-12 block text-4xl hover:cursor-pointer">
-            <i class="fa fa-chevron-down bounce"></i>
+         <a
+            href="/#info"
+            class="mt-12 block text-4xl hover:cursor-pointer"
+            aria-label="Meer info"
+         >
+            <i class="fa fa-chevron-down bounce" />
          </a>
       </div>
    </div>
