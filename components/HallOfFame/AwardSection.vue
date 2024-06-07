@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
-
 const props = defineProps({
    title: String,
    iconClass: String,
@@ -24,7 +22,3 @@ const medalClasses = [
    "fas fa-medal mr-2 text-amber-500",
 ];
 </script>
-
-<style scoped>
-/* Add any additional custom styles here */
-</style>

@@ -20,15 +20,28 @@
                steunt SZG immers verschillende goede doelen.
             </p>
          </div>
-         <NuxtImg
-            src="/images/homeInfo.webp"
-            alt="sfeerbeeld"
-            class="mt-20 h-96 w-full rounded object-cover shadow-lg md:col-span-2"
-            :placeholder="[50, 25, 75, 5]"
-            loading="lazy"
-         />
          <span
-            class="seperator my-20 border-b-2 border-gray-200 md:col-span-2"
+            class="seperator my-10 border-b-2 border-gray-200 md:col-span-2"
+         ></span>
+         <div class="timeTable flex flex-col items-center p-12 md:col-span-2">
+            <h3 class="text-5xl">Tijdschema</h3>
+            <ol class="mt-20 flex w-3/4 justify-between text-3xl">
+               <li class="flex flex-col items-center justify-center gap-2">
+                  <i class="fas fa-clock"></i>
+                  <p class="font-bold text-black">14u30: Start spelen</p>
+               </li>
+               <li class="flex flex-col items-center justify-center gap-2">
+                  <i class="fas fa-stopwatch"></i>
+                  <p class="font-bold text-black">17u30: Einde spelen</p>
+               </li>
+               <li class="flex flex-col items-center justify-center gap-2">
+                  <i class="fas fa-trophy"></i>
+                  <p class="font-bold text-black">18u00: Prijsuitreiking</p>
+               </li>
+            </ol>
+         </div>
+         <span
+            class="seperator my-10 border-b-2 border-gray-200 md:col-span-2"
          ></span>
          <div>
             <h2 class="break-words text-5xl">Parkeren en verkeer</h2>

@@ -1,5 +1,5 @@
 <template>
-   <section id="faq" class="my-40 flex flex-col">
+   <section id="faq" class="flex flex-col py-40">
       <h2
          class="inline-block border-b-8 border-blue-600 pb-2 text-5xl md:self-center"
       >
