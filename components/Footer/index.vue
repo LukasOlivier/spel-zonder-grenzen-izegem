@@ -38,8 +38,8 @@
          </div>
       </div>
       <hr class="border-t-2 border-gray-200" />
-      <nav>
-         <ul class="flex gap-4 px-12 py-5">
+      <nav class="flex items-center justify-between px-12 py-5">
+         <ul class="flex gap-4">
             <li>
                <NuxtLink to="/">Home</NuxtLink>
             </li>
@@ -50,6 +50,16 @@
                <NuxtLink to="/scores">Scores</NuxtLink>
             </li>
          </ul>
+
+         <a
+            href="https://lukasolivier.be"
+            target="_blank"
+            class="mr-10 text-gray-500"
+         >
+            <!-- copyright -->
+            <span>&copy;</span>
+            Website door <span class="underline">Lukas Olivier</span>
+         </a>
       </nav>
    </section>
 </template>
