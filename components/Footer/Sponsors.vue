@@ -41,7 +41,7 @@ const sponsors = ref([
       id: 3,
       name: "Argenta",
       image: "/images/sponsors/argenta.webp",
-      link: "https://www.argenta.be/nl",
+      link: "https://www.argenta.be/nl.html",
    },
    {
       id: 4,

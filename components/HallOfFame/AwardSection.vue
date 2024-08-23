@@ -2,7 +2,11 @@
    <div class="rounded-lg bg-white p-8 shadow-lg">
       <h3 class="text-2xl"><i :class="iconClass" /> {{ title }}</h3>
       <ol class="mt-4 flex flex-col gap-4">
-         <li v-for="(team, index) in teams" :key="index">
+         <li
+            v-for="(team, index) in teams"
+            :key="index"
+            class="flex items-center font-sans text-base font-normal"
+         >
             <i :class="medalClasses[index]" /> {{ team }}
          </li>
       </ol>

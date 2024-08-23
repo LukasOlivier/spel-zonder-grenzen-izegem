@@ -15,19 +15,15 @@
                fotozoektocht, …).
             </p>
             <p>
-               Het comité SZG werkt samen met de stedelijke sportraad en stad
-               Izegem.
-            </p>
-            <p>
                Je versterkt graag ons team?
                <a class="underline" href="#contact">Contacteer ons</a>.
             </p>
          </div>
 
-         <hr class="my-12 border-t-2 border-gray-200" >
+         <hr class="my-12 border-t-2 border-gray-200" />
 
          <Timeline
-            :value="events"
+            :value="eventsReversed"
             align="alternate"
             class="customized-timeline pb-12"
          >
@@ -68,6 +64,12 @@ import { ref } from "vue";
 
 const events = ref([
    {
+      date: "2023",
+      title: "20ste editie",
+      description:
+         "Na 20 jaar organiseren we de 20ste editie van SZG. Door corona werden 2 edities afgelast. Ondertussen is SZG uitgegroeid tot een begrip in Izegem en omstreken en doen ieder jaar meer dan 40 ploegen mee.",
+   },
+   {
       date: "2013",
       title: "Voortbestaan",
       description:
@@ -97,6 +99,8 @@ const events = ref([
          "Naast de nodige sponsoring, zochten we extra fondsen voor de financiering van de sportkledij en sportmateriaal.",
    },
 ]);
+
+const eventsReversed = ref([...events.value].reverse());
 </script>
 
 <style lang="scss" scoped>

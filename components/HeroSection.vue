@@ -5,7 +5,7 @@
             src="/images/hero-sm.webp"
             alt="Hero"
             class="absolute inset-0 z-0 h-full w-full object-cover"
-         >
+         />
       </div>
       <TopBar class="absolute top-0 z-10" />
       <div class="absolute top-32 z-10 w-full p-4 text-center">

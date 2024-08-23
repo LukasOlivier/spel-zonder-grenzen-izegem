@@ -16,7 +16,7 @@
             </p>
          </div>
 
-         <hr class="my-16 border-t-2 border-gray-200" >
+         <hr class="my-16 border-t-2 border-gray-200" />
       </div>
       <div
          class="mx-auto mb-20 grid w-11/12 grid-cols-1 gap-8 md:w-8/12 md:grid-cols-2 lg:grid-cols-3"
@@ -27,15 +27,16 @@
             class="flex flex-col gap-4 bg-white"
          >
             <div class="relative h-72">
-               <img
+               <NuxtImg
                   :src="game.image"
                   alt="game.title"
                   class="h-full w-full object-cover"
-               >
+                  :placeholder="[50, 25, 75, 5]"
+                  loading="lazy"
+               />
             </div>
-            <div class="p-4">
-               <h3 class="text-2xl">{{ game.title }}</h3>
-               <p>{{ game.description }}</p>
+            <div class="pb-2 text-center">
+               <h3 class="mb-1 text-2xl">{{ game.title }}</h3>
             </div>
          </div>
       </div>
@@ -47,28 +48,32 @@ import { ref } from "vue";
 
 const games = ref([
    {
-      title: "Buikglijbaan",
-      image: "/images/games/buikglijbaan.webp",
-      description:
-         "De buikglijbaan met helling is een spectaculaire waterglijbaan! Neem een aanloop, spring en glij op je buik naar het einde van deze baan toe!",
+      title: "Cornhole",
+      image: "/images/games/Cornhole.png",
    },
    {
-      title: "Buikglijbaan",
-      image: "/images/games/buikglijbaan.webp",
-      description:
-         "De buikglijbaan met helling is een spectaculaire waterglijbaan! Neem een aanloop, spring en glij op je buik naar het einde van deze baan toe!",
+      title: "Darts",
+      image: "/images/games/Darts.png",
    },
    {
-      title: "Buikglijbaan",
-      image: "/images/games/buikglijbaan.webp",
-      description:
-         "De buikglijbaan met helling is een spectaculaire waterglijbaan! Neem een aanloop, spring en glij op je buik naar het einde van deze baan toe!",
+      title: "Reuzenbal",
+      image: "/images/games/Reuzenbal.png",
    },
    {
-      title: "Buikglijbaan",
-      image: "/images/games/buikglijbaan.webp",
-      description:
-         "De buikglijbaan met helling is een spectaculaire waterglijbaan! Neem een aanloop, spring en glij op je buik naar het einde van deze baan toe!",
+      title: "Ringwerpen",
+      image: "/images/games/Ringwerpen.png",
+   },
+   {
+      title: "Schijvenpuzzel",
+      image: "/images/games/Schijvenpuzzel.png",
+   },
+   {
+      title: "SZG Puzzel",
+      image: "/images/games/SZG-puzzel.png",
+   },
+   {
+      title: "Tube",
+      image: "/images/games/Tube.png",
    },
 ]);
 </script>

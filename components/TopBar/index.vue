@@ -1,6 +1,6 @@
 <template>
    <div class="flex w-full items-center justify-between p-4">
-      <NuxtLink class="inline-block h-14" to="/">
+      <NuxtLink class="inline-block h-16" to="/">
          <NuxtImg src="/images/logo.webp" alt="Logo" class="h-full" />
       </NuxtLink>
       <TopBarMenuButton class="hover:cursor-pointer" @click="showSidebar" />
@@ -18,7 +18,6 @@ import { ref } from "vue";
 const isVisible = ref(false);
 
 const showSidebar = () => {
-   console.log("showSidebar");
    isVisible.value = !isVisible.value;
 };
 

@@ -11,7 +11,7 @@
             uitslagen. De scores worden verdeeld volgens de positie van het team
             relatief tot het aantal deelnemende teams.
          </p>
-         <hr class="my-16 border-t-2 border-gray-200" >
+         <hr class="my-16 border-t-2 border-gray-200" />
          <ScoresTable />
       </div>
    </div>

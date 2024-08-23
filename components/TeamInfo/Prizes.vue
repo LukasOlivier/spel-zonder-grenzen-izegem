@@ -13,19 +13,19 @@
                   </th>
                   <th
                      scope="col"
-                     class="text-md px-6 py-3 text-left font-bold tracking-wider"
+                     class="text-md px-6 py-3 text-center font-bold tracking-wider"
                   >
                      Gewoon klassement
                   </th>
                   <th
                      scope="col"
-                     class="text-md px-6 py-3 text-left font-bold tracking-wider"
+                     class="text-md px-6 py-3 text-center font-bold tracking-wider"
                   >
                      Gemengd klassement
                   </th>
                   <th
                      scope="col"
-                     class="text-md px-6 py-3 text-left font-bold tracking-wider"
+                     class="text-md px-6 py-3 text-center font-bold tracking-wider"
                   >
                      Jeugd klassement
                   </th>
@@ -34,26 +34,56 @@
             <tbody class="divide-y divide-gray-200 bg-white">
                <tr>
                   <td class="bg-yell whitespace-nowrap px-6 py-4">1</td>
-                  <td class="whitespace-nowrap px-6 py-4">€ 100 + trofee</td>
-                  <td class="whitespace-nowrap px-6 py-4">€ 100 + trofee</td>
-                  <td class="whitespace-nowrap px-6 py-4">€ 50 + trofee</td>
+                  <td class="whitespace-nowrap px-6 py-4 text-center">
+                     trofee + €100
+                  </td>
+                  <td class="whitespace-nowrap px-6 py-4 text-center">
+                     trofee + €100
+                  </td>
+                  <td class="whitespace-nowrap px-6 py-4 text-center">
+                     trofee + €50
+                  </td>
                </tr>
                <tr>
                   <td class="whitespace-nowrap px-6 py-4">2</td>
                   <td
                      class="whitespace-nowrap px-6 py-4 text-center"
-                     colspan="3"
+                     colspan="1"
                   >
-                     trofee
+                     trofee + €40 voucher
+                  </td>
+                  <td
+                     class="whitespace-nowrap px-6 py-4 text-center"
+                     colspan="1"
+                  >
+                     trofee + €40 voucher
+                  </td>
+                  <td
+                     class="whitespace-nowrap px-6 py-4 text-center"
+                     colspan="1"
+                  >
+                     trofee + €30 voucher
                   </td>
                </tr>
                <tr>
                   <td class="whitespace-nowrap px-6 py-4">3</td>
                   <td
                      class="whitespace-nowrap px-6 py-4 text-center"
-                     colspan="3"
+                     colspan="1"
                   >
-                     trofee
+                     trofee + €20 voucher
+                  </td>
+                  <td
+                     class="whitespace-nowrap px-6 py-4 text-center"
+                     colspan="1"
+                  >
+                     trofee + €20 voucher
+                  </td>
+                  <td
+                     class="whitespace-nowrap px-6 py-4 text-center"
+                     colspan="1"
+                  >
+                     trofee + €20 voucher
                   </td>
                </tr>
                <tr>

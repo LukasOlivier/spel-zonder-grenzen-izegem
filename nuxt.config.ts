@@ -29,7 +29,6 @@ export default defineNuxtConfig({
       "nuxt-primevue",
       "@nuxt/image",
       "nuxt-booster",
-      "@unlighthouse/nuxt",
    ],
 
    runtimeConfig: {
@@ -61,4 +60,6 @@ export default defineNuxtConfig({
          autoprefixer: {},
       },
    },
+
+   compatibilityDate: "2024-08-22",
 });

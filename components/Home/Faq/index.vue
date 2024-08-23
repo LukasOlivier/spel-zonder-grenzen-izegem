@@ -30,27 +30,27 @@ const faqs = ref([
    },
    {
       id: 2,
-      question: "Hoef je op voorhand de deeelnemers door te geven?",
+      question: "Hoef je op voorhand de deelnemers door te geven?",
       answer:
-         "Nee, dat hoeft niet. Je kan op de dag zelf nog deelnemers toevoegen of verwijderen.",
+         "Nee, dat hoeft niet. Je geeft alle deelneemers door op de dag van het tornooi zelf.",
    },
    {
       id: 3,
-      question: "Kan ik mijn inschrijving annuleren?",
+      question: "Wat kost het om deel te nemen?",
       answer:
-         "Ja, dat kan. Stuur een mailtje naar szg@gmail.com met je naam en ploegnaam.",
+         "Deelname kost €300 voor een volwassenen / familieploeg en €200 voor een jeugdploeg. Hierin zit de deelname aan het tornooi, verzekering en waarborg in vorm van consumatiekaarten inbegrepen.",
    },
    {
       id: 4,
-      question: "Wat kost het om deel te nemen?",
+      question: "Wat is de minimumleeftijd om deel te nemen?",
       answer:
-         "Deelname kost €300 voor een volwassenenploeg en €200 voor een jeugdploeg.",
+         "De minimumleeftijd is 16 jaar. Voor de jeugdploegen is dit 12 jaar. Bij een familieploeg moet minstens 2 kinderen tussen 10 en 15 jaar zijn.",
    },
    {
       id: 5,
-      question: "Wat is de minimumleeftijd om deel te nemen?",
+      question: "Waarom staat onze ploeg nog niet op de deelnemerslijst?",
       answer:
-         "De minimumleeftijd is 16 jaar. Voor de jeugdploegen is dit 12 jaar.",
+         "Het kan zijn dat de betaling nog niet nagekeken is. Als je zeker bent dat je betaald hebt, en na lange tijd nog steeds niet op de lijst staat, neem dan contact op.",
    },
 ]);
 </script>
