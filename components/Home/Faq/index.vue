@@ -32,7 +32,7 @@ const faqs = ref([
       id: 2,
       question: "Hoef je op voorhand de deelnemers door te geven?",
       answer:
-         "Nee, dat hoeft niet. Je geeft alle deelneemers door op de dag van het tornooi zelf.",
+         "Nee, dat hoeft niet. Je geeft alle deelnemers door op de dag van het evenement, voor 9u00.",
    },
    {
       id: 3,

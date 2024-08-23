@@ -15,6 +15,10 @@
             <h3 class="font-aachen mt-4 text-xl md:text-2xl">Ploegopties:</h3>
             <ul class="flex list-inside list-disc flex-col gap-2">
                <li>
+                  Gewone ploeg: volwassen ploeg met minder dan 3 dames, apart
+                  klassement.
+               </li>
+               <li>
                   Gemengde ploeg: Minimaal 3 dames, apart klassement. Een
                   volledige damesploeg is ook mogelijk en strijden ook mee als
                   een gemengde ploeg.

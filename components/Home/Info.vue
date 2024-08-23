@@ -83,11 +83,17 @@
                </ul>
             </div>
          </div>
-         <NuxtImg
-            src="/images/parking.png"
-            title="Google Maps SZG"
-            class="max-h-96 transform justify-self-center rounded object-contain shadow-lg transition-transform duration-500 ease-in-out hover:scale-150"
-         />
+         <a
+            href="https://maps.app.goo.gl/uv1YQHL9xJkevdFDA"
+            target="_blank"
+            aria-label="Google Maps SZG"
+         >
+            <NuxtImg
+               src="/images/parking.png"
+               title="Google Maps SZG"
+               class="max-h-96 transform justify-self-center rounded object-contain shadow-lg transition-transform duration-500 ease-in-out hover:scale-125 md:hover:scale-150"
+            />
+         </a>
       </section>
    </div>
 </template>
