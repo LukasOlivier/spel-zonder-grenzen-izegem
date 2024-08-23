@@ -56,7 +56,6 @@
             target="_blank"
             class="mr-10 text-gray-500"
          >
-            <!-- copyright -->
             <span>&copy;</span>
             Website door <span class="underline">Lukas Olivier</span>
          </a>

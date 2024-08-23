@@ -70,6 +70,12 @@ const events = ref([
          "Na 20 jaar organiseren we de 20ste editie van SZG. Door corona werden 2 edities afgelast. Ondertussen is SZG uitgegroeid tot een begrip in Izegem en omstreken en doen ieder jaar meer dan 40 ploegen mee.",
    },
    {
+      date: "2017",
+      title: "Topeditie",
+      description:
+         "De editie van 2017 was een topeditie. De weergoden waren ons gunstig gezind en de sfeer zat er goed in. We mochten maar liefst 82 ploegen verwelkomen!",
+   },
+   {
       date: "2013",
       title: "Voortbestaan",
       description:
