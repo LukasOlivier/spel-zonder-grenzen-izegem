@@ -1,3 +1,5 @@
+import Aura from "@primevue/themes/aura";
+
 export default defineNuxtConfig({
    devtools: { enabled: false },
 
@@ -21,9 +23,23 @@ export default defineNuxtConfig({
       "@vueuse/motion/nuxt",
       "nuxt-primevue",
       "@nuxt/image",
-      "nuxt-booster",
       "@nuxt/fonts",
    ],
+
+   primevue: {
+      options: {
+         ripple: false,
+         inputVariant: "outlined",
+         theme: {
+            preset: Aura,
+            options: {
+               prefix: "p",
+               darkModeSelector: "system",
+               cssLayer: false,
+            },
+         },
+      },
+   },
 
    runtimeConfig: {
       public: {
