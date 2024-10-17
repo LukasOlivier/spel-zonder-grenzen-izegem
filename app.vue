@@ -64,3 +64,24 @@ useHead({
       </NuxtLayout>
    </div>
 </template>
+
+<style>
+html {
+   scroll-behavior: smooth;
+   font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+   font-family: "Aachenn", sans-serif;
+}
+
+.font-aachen {
+   font-family: "Aachenn", sans-serif;
+}
+
+p {
+   color: #383838;
+}
+</style>

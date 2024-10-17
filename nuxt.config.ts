@@ -39,7 +39,11 @@ export default defineNuxtConfig({
    fonts: {
       families: [
          { name: "Inter", provider: "fontsource" },
-         { name: "Aachen", provider: "fontsource" },
+         {
+            name: "Aachenn",
+            provider: "local",
+            weights: ["400", "700"],
+         },
       ],
    },
 
