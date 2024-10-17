@@ -73,8 +73,8 @@ importers:
         specifier: ^3.11.2
         version: 3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.6)(eslint@9.12.0(jiti@2.3.3))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.0)(sass-embedded@1.80.1)(terser@5.36.0)(typescript@5.6.3)(vite@5.4.9(@types/node@22.7.6)(sass-embedded@1.80.1)(terser@5.36.0))(webpack-sources@3.2.3)
       nuxt-primevue:
-        specifier: ^0.3.1
-        version: 0.3.1(magicast@0.3.5)(rollup@4.24.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
+        specifier: ^3.0.0
+        version: 3.0.0(magicast@0.3.5)(rollup@4.24.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
       postcss:
         specifier: ^8.4.38
         version: 8.4.47
@@ -3904,8 +3904,8 @@ packages:
     resolution: {integrity: sha512-9Z/aTH7Sb6/BtpmhntH0VYeww5i96tq1rkKHRhIi2n1dIVfOTFYQHM/7hFkktvVsfrHPlZmB0ZdLTaQbbDDQSA==}
     engines: {node: '>=18.0.0'}
 
-  nuxt-primevue@0.3.1:
-    resolution: {integrity: sha512-wTFvUbniEhntFamnRP4znMqU9a4lYr7eXvA7FW5nGX51YCV3nJzXZlCML4l6kEL0pyJsSV4DTb0Qo61nZnn9JQ==}
+  nuxt-primevue@3.0.0:
+    resolution: {integrity: sha512-MC3ubLTF0hzUEsQ2gYzzlzaW1gXN9/wrpbWnS9xwK47TWw1gcfim8idu5mcOx+l66CPAtTLOR1QJahkDc4m9XA==}
 
   nuxt-schema-org@3.4.1:
     resolution: {integrity: sha512-RBtmWXUYihI2USRM77mwx/wPnRVPhYeK25dOFTk2BMeAvdvdCJRSP5LvMTe3C/YB5rnaeB69l6BVgw8j03C6ww==}
@@ -4450,11 +4450,6 @@ packages:
 
   primeicons@7.0.0:
     resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
-
-  primevue@3.49.1:
-    resolution: {integrity: sha512-OmUTqbKbPB63Zqf7uA49cipDi+Qh+/13AYJPwgvsVsI4QmAKIkeibBwkOgj1CNIFlopfF79YmyBshFUAPqlw9A==}
-    peerDependencies:
-      vue: ^3.0.0
 
   primevue@3.53.0:
     resolution: {integrity: sha512-mRqTPGGZX+3AQokaCCjxLVSNEjGEA7LaPdBT4qSpGEdMstK6vhUBCxgLH7IPjHudbaSi4Xo3CIO62pXQxbz8dQ==}
@@ -10245,10 +10240,11 @@ snapshots:
       - vue
       - webpack-sources
 
-  nuxt-primevue@0.3.1(magicast@0.3.5)(rollup@4.24.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3):
+  nuxt-primevue@3.0.0(magicast@0.3.5)(rollup@4.24.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3):
     dependencies:
       '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.24.0)(webpack-sources@3.2.3)
-      primevue: 3.49.1(vue@3.5.12(typescript@5.6.3))
+      pathe: 1.1.2
+      primevue: 3.53.0(vue@3.5.12(typescript@5.6.3))
     transitivePeerDependencies:
       - magicast
       - rollup
@@ -10894,10 +10890,6 @@ snapshots:
       parse-ms: 4.0.0
 
   primeicons@7.0.0: {}
-
-  primevue@3.49.1(vue@3.5.12(typescript@5.6.3)):
-    dependencies:
-      vue: 3.5.12(typescript@5.6.3)
 
   primevue@3.53.0(vue@3.5.12(typescript@5.6.3)):
     dependencies:
