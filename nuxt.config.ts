@@ -7,13 +7,6 @@ export default defineNuxtConfig({
          viewport: "width=device-width,initial-scale=1",
          link: [
             {
-               rel: "preload",
-               href: "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap",
-               as: "style",
-               onload: "this.onload=null;this.rel='stylesheet'",
-            },
-
-            {
                rel: "stylesheet",
                href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css",
             },
@@ -29,6 +22,7 @@ export default defineNuxtConfig({
       "nuxt-primevue",
       "@nuxt/image",
       "nuxt-booster",
+      "@nuxt/fonts",
    ],
 
    runtimeConfig: {
@@ -40,6 +34,13 @@ export default defineNuxtConfig({
          registerDate: process.env.REGISTER_DATE,
          meetingDate: process.env.MEETING_DATE,
       },
+   },
+
+   fonts: {
+      families: [
+         { name: "Inter", provider: "fontsource" },
+         { name: "Aachen", provider: "fontsource" },
+      ],
    },
 
    site: {
