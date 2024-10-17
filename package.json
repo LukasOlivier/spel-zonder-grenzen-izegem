@@ -13,7 +13,7 @@
       "lintfix": "eslint . --fix && prettier --write --list-different ."
    },
    "devDependencies": {
-      "@nuxt/eslint": "^0.3.13",
+      "@nuxt/eslint": "^0.6.0",
       "@nuxt/image": "^1.7.0",
       "@nuxtjs/eslint-config-typescript": "^12.1.0",
       "@nuxtjs/seo": "^2.0.0-rc.10",
