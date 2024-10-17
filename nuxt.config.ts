@@ -33,9 +33,12 @@ export default defineNuxtConfig({
 
    runtimeConfig: {
       public: {
-         scoresExcelUrl: process.env.SCORES_EXCEL_URL, // TODO: Add this to the .env file
-         teamsExcelUrl: process.env.TEAMS_EXCEL_URL, // TODO: Add this to the .env file
-         googleFormsUrl: process.env.GOOGLE_FORMS_URL, // TODO: Add this to the .env file
+         scoresExcelUrl: process.env.SCORES_EXCEL_URL,
+         teamsExcelUrl: process.env.TEAMS_EXCEL_URL,
+         googleFormsUrl: process.env.GOOGLE_FORMS_URL,
+         eventDate: process.env.EVENT_DATE,
+         registerDate: process.env.REGISTER_DATE,
+         meetingDate: process.env.MEETING_DATE,
       },
    },
 
