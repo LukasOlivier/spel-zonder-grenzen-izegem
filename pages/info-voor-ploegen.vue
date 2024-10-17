@@ -2,7 +2,7 @@
    <div class="pb-40">
       <HeroSection
          page-title="INFO VOOR PLOEGEN"
-         description="INSCHRIJVEN VANAF 15 FEBRUARI 2024"
+         :description="`INSCHRIJVEN VANAF ` + config.public.registerDate"
       />
       <div class="mx-auto my-20 w-11/12 md:w-8/12">
          <h2 class="text-4xl">Wie kan deelnemen?</h2>
@@ -40,11 +40,11 @@
          <hr class="my-16 border-t-2 border-gray-200" />
          <h2 class="text-4xl">Algemene Vergadering</h2>
          <p class="mt-4">
-            De algemene vergadering vindt plaats op donderdag 11 juli 2024 om
-            20:00 in Kasteel Wallemote. Elke ploeg moet vertegenwoordigd zijn
-            door de coach of een speler. De vergadering omvat een algemene
-            uitleg, ploegtrekking (indeling van de speeltijden), praktische
-            afspraken en een vragenronde.
+            De algemene vergadering vindt plaats op
+            {{ config.public.meetingDate }} om 20:00 in Kasteel Wallemote. Elke
+            ploeg moet vertegenwoordigd zijn door de coach of een speler. De
+            vergadering omvat een algemene uitleg, ploegtrekking (indeling van
+            de speeltijden), praktische afspraken en een vragenronde.
          </p>
          <p class="mt-4 italic text-gray-500">
             Let op: Enkel vertegenwoordigde ploegen krijgen op het einde van
@@ -56,3 +56,7 @@
       </div>
    </div>
 </template>
+
+<script setup>
+const config = useRuntimeConfig();
+</script>
