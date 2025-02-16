@@ -26,7 +26,7 @@ const faqs = ref([
       id: 1,
       question: "Hoe kan ik inschrijven?",
       answer:
-         "Inschrijven kan via de website. Klik op de knop 'inschrijven' en vul het formulier in.",
+         "Inschrijven kan via de website. Klik op de knop 'inschrijven' bovenaan de pagina en volg de stappen.",
    },
    {
       id: 2,
