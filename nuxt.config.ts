@@ -1,5 +1,3 @@
-import Aura from "@primevue/themes/aura";
-
 export default defineNuxtConfig({
    devtools: { enabled: false },
 
@@ -7,6 +5,8 @@ export default defineNuxtConfig({
       head: {
          charset: "utf-16",
          viewport: "width=device-width,initial-scale=1",
+         titleTemplate: "%s - Spel Zonder Grenzen Izegem",
+
          link: [
             {
                rel: "stylesheet",
@@ -25,21 +25,6 @@ export default defineNuxtConfig({
       "@nuxt/image",
       "@nuxt/fonts",
    ],
-
-   primevue: {
-      options: {
-         ripple: false,
-         inputVariant: "outlined",
-         theme: {
-            preset: Aura,
-            options: {
-               prefix: "p",
-               darkModeSelector: "system",
-               cssLayer: false,
-            },
-         },
-      },
-   },
 
    runtimeConfig: {
       public: {
