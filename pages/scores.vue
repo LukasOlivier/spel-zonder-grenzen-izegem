@@ -16,3 +16,17 @@
       </div>
    </div>
 </template>
+
+<script setup>
+useHead({
+   title: "Scores",
+   meta: [
+      {
+         name: "description",
+         content:
+            "Tijdens SZG vind je hier (en in de dranktent) elk uur de bijgewerkte uitslagen.",
+      },
+   ],
+   link: [{ rel: "canonical", href: "https://szg.be/scores" }],
+});
+</script>

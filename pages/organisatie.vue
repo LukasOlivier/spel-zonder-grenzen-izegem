@@ -60,7 +60,17 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+useHead({
+   title: "Organisatie",
+   meta: [
+      {
+         name: "description",
+         content:
+            "De organisatie van SZG gebeurt volledig door vrijwillige medewerkers",
+      },
+   ],
+   link: [{ rel: "canonical", href: "https://szg.be/organisatie" }],
+});
 
 const events = ref([
    {

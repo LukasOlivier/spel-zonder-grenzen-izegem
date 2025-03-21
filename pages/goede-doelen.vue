@@ -54,7 +54,17 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+useHead({
+   title: "Goede doelen",
+   meta: [
+      {
+         name: "description",
+         content:
+            "Met de opbrengst van Spel Zonder Grenzen steunen wij jaarlijks verschillende goede doelen.",
+      },
+   ],
+   link: [{ rel: "canonical", href: "https://szg.be/goede-doelen" }],
+});
 
 const allCauses = ref([
    {

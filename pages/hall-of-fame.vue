@@ -40,8 +40,18 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from "vue";
 import confetti from "canvas-confetti";
+
+useHead({
+   title: "Hall Of Fame",
+   meta: [
+      {
+         name: "description",
+         content: "De winnaars van elke editie van Spel Zonder Grenzen",
+      },
+   ],
+   link: [{ rel: "canonical", href: "https://szg.be/hall-of-fame" }],
+});
 
 const winners = ref({
    2024: {

@@ -11,5 +11,13 @@
 <script setup>
 useHead({
    title: "Home",
+   meta: [
+      {
+         name: "description",
+         content:
+            "Spel Zonder Grenzen is een teambuilding activiteit waarbij de deelnemers in teams tegen elkaar strijden in verschillende proeven. Dit voor zowel jong als oud.",
+      },
+   ],
+   link: [{ rel: "canonical", href: "https://szg.be" }],
 });
 </script>

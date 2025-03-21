@@ -59,4 +59,16 @@
 
 <script setup>
 const config = useRuntimeConfig();
+
+useHead({
+   title: "Info voor ploegen",
+   meta: [
+      {
+         name: "description",
+         content:
+            "Alles wat je moet weten om deel te nemen aan het tornooi van SZG.",
+      },
+   ],
+   link: [{ rel: "canonical", href: "https://szg.be/info-voor-ploegen" }],
+});
 </script>

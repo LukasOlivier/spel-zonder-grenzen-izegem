@@ -44,7 +44,17 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+useHead({
+   title: "Knotsgekke Spelen",
+   meta: [
+      {
+         name: "description",
+         content:
+            "Iedere editie blijft het een uitdagende, maar leuke opdracht om jullie nieuwe spelen te brengen en origineel uit de hoek te komen.",
+      },
+   ],
+   link: [{ rel: "canonical", href: "https://szg.be/spelen" }],
+});
 
 const games = ref([
    {

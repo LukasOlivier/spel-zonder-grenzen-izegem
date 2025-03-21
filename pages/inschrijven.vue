@@ -67,7 +67,17 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+useHead({
+   title: "Inscrijven",
+   meta: [
+      {
+         name: "description",
+         content:
+            "Lees hier alle info omtrent inschrijven voor Spel Zonder Grenzen.",
+      },
+   ],
+   link: [{ rel: "canonical", href: "https://szg.be/inschrijven" }],
+});
 
 const config = useRuntimeConfig();
 
