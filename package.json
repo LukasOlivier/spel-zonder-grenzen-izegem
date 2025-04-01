@@ -20,7 +20,7 @@
       "@types/node": "^22.13.5",
       "@vueuse/core": "^10.11.1",
       "@vueuse/nuxt": "^10.11.1",
-      "autoprefixer": "^10.4.20",
+      "autoprefixer": "^10.4.21",
       "eslint": "^9.21.0",
       "eslint-config-prettier": "^9.1.0",
       "eslint-plugin-prettier": "^5.2.3",
