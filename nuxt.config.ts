@@ -34,6 +34,7 @@ export default defineNuxtConfig({
          eventDate: process.env.EVENT_DATE,
          registerDate: process.env.REGISTER_DATE,
          meetingDate: process.env.MEETING_DATE,
+         showScoresButton: process.env.SHOW_SCORES_BUTTON,
       },
    },
 

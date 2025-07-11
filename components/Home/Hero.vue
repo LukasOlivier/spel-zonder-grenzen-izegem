@@ -14,12 +14,11 @@
          <h1 class="mb-4 text-5xl md:text-6xl">Spel Zonder Grenzen</h1>
          <h2 class="text-3xl md:text-4xl">{{ config.public.eventDate }}</h2>
          <h2 class="text-3xl md:text-4xl">DOMEIN WALLEMOTE - IZEGEM</h2>
-
          <a
-            href="/inschrijven"
+            :href="showScoresButton ? '/tussenstand' : '/inschrijven'"
             class="font-aachen mt-20 inline-block transform rounded-lg bg-orange-500 px-8 py-4 text-3xl uppercase transition duration-300 hover:scale-105 hover:cursor-pointer hover:bg-orange-500"
          >
-            Inschrijven
+            {{ showScoresButton ? "Tussenstand bekijken" : "Inschrijven" }}
          </a>
          <a
             href="/#info"
@@ -34,6 +33,7 @@
 
 <script setup>
 const config = useRuntimeConfig();
+const showScoresButton = config.public.showScoresButton === "true";
 </script>
 
 <style scoped>
