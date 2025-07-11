@@ -15,7 +15,7 @@
          <h2 class="text-3xl md:text-4xl">{{ config.public.eventDate }}</h2>
          <h2 class="text-3xl md:text-4xl">DOMEIN WALLEMOTE - IZEGEM</h2>
          <a
-            :href="showScoresButton ? '/tussenstand' : '/inschrijven'"
+            :href="showScoresButton ? '/scores' : '/inschrijven'"
             class="font-aachen mt-20 inline-block transform rounded-lg bg-orange-500 px-8 py-4 text-3xl uppercase transition duration-300 hover:scale-105 hover:cursor-pointer hover:bg-orange-500"
          >
             {{ showScoresButton ? "Tussenstand bekijken" : "Inschrijven" }}
@@ -33,7 +33,7 @@
 
 <script setup>
 const config = useRuntimeConfig();
-const showScoresButton = config.public.showScoresButton === "true";
+const showScoresButton = config.public.showScoresButton;
 </script>
 
 <style scoped>
