@@ -28,16 +28,20 @@ export default defineNuxtConfig({
 
    runtimeConfig: {
       public: {
-         scoresExcelUrl: process.env.SCORES_EXCEL_URL,
-         teamsExcelUrl: process.env.TEAMS_EXCEL_URL,
          googleFormsUrl: process.env.GOOGLE_FORMS_URL,
          eventDate: process.env.EVENT_DATE,
          registerDate: process.env.REGISTER_DATE,
          meetingDate: process.env.MEETING_DATE,
          showScoresButton: process.env.SHOW_SCORES_BUTTON,
+         googleSheetTeamsId: process.env.NUXT_PRIVATE_GOOGLE_SHEET_TEAMS_ID,
+         googleSheetTeamsRange:
+            process.env.NUXT_PRIVATE_GOOGLE_SHEET_TEAMS_RANGE,
+         googleSheetScoresId: process.env.NUXT_PRIVATE_GOOGLE_SHEET_SCORES_ID,
+         googleSheetScoresRange:
+            process.env.NUXT_PRIVATE_GOOGLE_SHEET_SCORES_RANGE,
       },
+      googleSheetsApiKey: process.env.NUXT_PRIVATE_GOOGLE_SHEETS_API_KEY,
    },
-
    fonts: {
       families: [
          { name: "Inter", provider: "fontsource" },
