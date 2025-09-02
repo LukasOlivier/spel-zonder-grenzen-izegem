@@ -1,10 +1,10 @@
 <template>
    <div>
-      <div class="mb-4 flex items-center justify-between">
+      <div class="mb-4 flex items-center justify-end">
          <button
-            @click="getScores"
-            :disabled="loading"
             class="flex items-center gap-2 rounded bg-blue-600 px-4 py-2 text-white shadow transition-colors duration-150 hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-60"
+            :disabled="loading"
+            @click="getScores"
          >
             <svg
                xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +23,6 @@
             </svg>
             Vernieuwen
          </button>
-         <div v-if="lastUpdated" class="text-sm text-gray-600">
-            Laatst bijgewerkt: {{ lastUpdated }}
-         </div>
       </div>
       <DataTable
          sort-field="Totaal"

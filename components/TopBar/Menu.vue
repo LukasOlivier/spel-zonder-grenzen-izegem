@@ -61,6 +61,10 @@ li {
    padding: 0.5rem 0;
 }
 
+li:hover {
+   font-weight: bold;
+}
+
 .bold {
    font-weight: bold;
 }
